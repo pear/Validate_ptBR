@@ -1,0 +1,44 @@
+{
+    "name": "pear/validate_ptbr",
+    "description": "Validation class for Brazilian Portuguese.",
+    "type": "library",
+    "keywords": [
+        "validation",
+        "brazilian",
+        "portuguese"
+    ],
+    "homepage": "http://pear.php.net/package/Validate_ptBR",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Silvano Girardi Jr.",
+            "email": "silvano@php.net",
+            "role": "Lead"
+        },
+        {
+            "name": "Marcelo Santos Araujo",
+            "email": "msaraujo@php.net",
+            "role": "Lead"
+        },
+        {
+            "name": "Igor Feghali",
+            "email": "ifeghali@php.net",
+            "role": "Lead"
+        }
+    ],
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_ptBR",
+        "source": "https://github.com/pear/Validate_ptBR"
+    },
+    "autoload": {
+        "psr-0": {
+            "Validate": "./"
+        }
+    },
+    "include-path": [
+        "./"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
